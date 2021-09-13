@@ -2,22 +2,22 @@ import turtle
 import random
 
 def left_move():
-    turtle.sethead(180)
+    turtle.setheading(180)
     turtle.forward(50)
     turtle.stamp()
     
 def right_move():
-    turtle.sethead(0)
+    turtle.setheading(0)
     turtle.forward(50)
     turtle.stamp()
 
 def up_move():
-    turtle.sethead(90)
+    turtle.setheading(90)
     turtle.forward(50)
     turtle.stamp()
     
 def down_move():
-    turtle.sethead(270)
+    turtle.setheading(270)
     turtle.forward(50)
     turtle.stamp()
 
