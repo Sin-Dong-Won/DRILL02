@@ -1,8 +1,17 @@
 import turtle
 import random
 
-turtle.shape('turtle')
-while(True):
-    turtle.setheading(random.randint(0,30))
-    turtle.forward(random.randint(100,200))
+def Drunken_move():
+    turtle.setheading(random.randint(0,360))
+    turtle.forward(random.randint(50,100))
     turtle.stamp()
+
+def restart():
+    turtle.reset()
+
+turtle.shape('turtle')
+
+turtle.onkey(Drunken_move, ' ')
+turtle.onkey(restart, 'Escape')
+turtle.listen()
+ 
