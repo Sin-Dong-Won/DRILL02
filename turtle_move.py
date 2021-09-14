@@ -1,6 +1,8 @@
 import turtle
 import random
 
+#https://www.youtube.com/watch?v=a94Bpg6s4JQ
+
 def left_move():
     turtle.setheading(180)
     turtle.forward(50)
